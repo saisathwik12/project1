@@ -1,0 +1,377 @@
+body{
+    background-image: url(tm-catalyst-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-seri;
+    justify-content: center;
+
+
+    .wholegrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        justify-content: center;
+        margin: 0px auto;
+        position: relative;
+        width: 80%;
+        margin-top: 80px;
+
+
+
+
+        .catalyst{
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20%;
+            font-size: 150%;
+            align-content: center;
+
+        }
+        .welcome{
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            align-content: center;
+
+            h1{
+                font-weight: lighter;
+                text-align: center;
+                color: rgb(0, 89, 255);
+            }
+            p{
+                font-size: large;
+                font-weight: lighter;
+                line-height: 1.8;
+            }
+        }
+        .mauris{
+            padding: 50px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.8);
+            align-content: center;
+
+            h1{
+                text-align: center;
+                font-weight: lighter;
+
+            }
+
+            p{
+                font-size: large;
+                font-weight: lighter;
+                line-height: 1.8;
+            }
+
+            .readmore{
+                text-align: end;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: rgb(221, 0, 85);
+                padding: 10px 20px;
+            }
+            a:hover{
+                background-color: rgb(166, 0, 64);
+                
+            }
+        }
+        .images{
+            display: flex;
+            padding: 10%;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            align-items: center;
+
+            .img1{
+                border-right: 15px solid #666666;
+                border-bottom: 15px solid #666666;
+                width: 100%;
+                height: auto;
+                margin: 5px 0;
+            
+            }
+            
+            .img2{
+                border-bottom: 15px solid #cc3467;
+                border-left: 15px solid #cc3467;
+                width: 100%;
+                height: auto;
+                margin: 5px 0;
+            }
+            .img3{
+                border-top: 15px solid #cc3467;
+                border-right: 15px solid #cc3467;
+                width: 100%;
+                height: auto;
+                margin: 5px 0;
+            }
+            .img4{
+                border-left: 15px solid #666666;
+                border-top: 15px solid #666666;
+                width: 100%;
+                height: auto;
+                margin: 5px 0;
+            }
+
+            .left{
+                width: 254px;
+                float: left;
+                max-width: 40%;
+            }
+            .right{
+                margin-top: 50px;
+                margin-left: 30px;
+                width: 254px;
+                float: left;
+                max-width: 40%;
+            }
+        }
+
+
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        justify-content: center;
+        margin: 0px auto;
+        position: relative;
+        width: 80%;    
+
+
+        .left-empty{
+            height: auto;
+            position: relative;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0.8)50%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
+
+            .morbi{
+                position: relative;
+                left:5%;
+                background-color: #cc3467;
+                width: 90%;
+                height: 60%;
+                z-index: 10;
+    
+    
+                h1{
+                    color: white;
+                    text-align: center;
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight: 100;
+                    padding-top: 10px;
+                }
+            }
+    
+                .morbi-grid{
+                    position: relative;
+                    bottom: 50%;
+                    left: 7.5%;
+                    width: 75%;
+                    height: auto;
+                    z-index: 50;
+                    background-color: white;
+                    padding: 10% 5%;
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    column-gap: 50px;
+                    text-align: center;
+    
+                    i{
+                        font-size: 70px;
+                        margin: 40px auto;
+    
+                    }
+                    p{
+                        text-align: start;
+                        font-family:'Open Sans', sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                    }
+                }
+        }
+    }
+
+
+    .grid3{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        justify-content: center;
+        margin: 0px auto;
+        position: relative;
+        width: 80%;
+    
+    
+        .contact_info{
+
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 50px;
+            padding-top: 100px;
+            align-content: center;
+
+
+
+            h1{
+                font-weight: lighter;
+            }
+
+            p{
+                font-size: large;
+                font-weight: 100;
+                line-height: 1.8;
+
+            }
+        }
+
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            align-content: center;
+
+
+            .inputs{
+                margin-top: 100px;
+
+            }
+
+
+            input{
+                margin-top: 20px;
+                width: 90%;
+                height: 30px;
+                font-size: larger;
+                padding: 10px;
+
+                &:focus{
+                    outline: 1px solid red;
+                    box-shadow: 0px 0px 10px red;
+                    border: 0;
+                }
+                
+            }
+
+            textarea{
+                margin-top: 20px;
+                width: 90%;
+                height: 150px;
+                font-size: larger;
+                padding: 10px;
+
+                &:focus{
+                    outline: 1px solid red;
+                    box-shadow: 0px 0px 10px red;
+                    border: 0;
+                }
+            }
+
+            .submit{
+
+                margin-top: 50px;
+                text-align: end;
+            }
+
+            a{
+                font-size: large;
+                text-decoration: none;
+                color: white;
+                background-color: #cc3467;
+                padding: 10px 30px;
+
+
+                &:hover{
+                    background-color: #d8517e;
+                }
+            }
+
+        }
+
+    }
+
+    .copyright{
+        text-align: center;
+        color: white;
+    }
+}
+
+
+
+@media(max-width:768px){
+
+    body{   
+
+        .wholegrid{
+            grid-template-columns: 100%;
+            width: 95%;
+
+            }
+
+
+        .grid2{
+            grid-template-columns: 100%;
+            width: 95%;
+            background-color: rgba(0, 0, 0, 0.8);
+
+            .left-empty{
+                background-color: rgba(0, 0, 0, 0.8);
+                background-image: none;
+                    .morbi-grid{
+                    grid-template-columns: auto;
+                    }
+            
+            }
+
+        }
+
+        .grid3{
+            grid-template-columns: 100%;
+            width: 95%;
+
+
+        }
+     }
+
+}
+
+
+@media(max-width:360px){
+
+    body{
+
+        .wholegrid{
+            grid-template-columns: 100%;
+            width: 95%;
+            .catalyst{
+                font-size: large;
+            }
+
+         }
+
+        .grid2{
+            grid-template-columns: 100%;
+            width: 95%;
+
+            .left-empty{
+                background-color: rgba(0, 0, 0, 0.8);
+                background-image: none;
+                .morbi-grid{
+                grid-template-columns: auto;
+            
+                }
+        }
+
+        }
+
+        .grid3{
+            grid-template-columns: 100%;
+            width: 95%;
+
+        }
+    }
+
+}
